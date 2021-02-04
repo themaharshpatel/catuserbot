@@ -61,7 +61,9 @@ def char_is_emoji(character):
 def pack_nick(username, pack, is_anim):
     if Config.CUSTOM_STICKER_PACKNAME:
         if is_anim:
-            packnick = f"{Config.CUSTOM_STICKER_PACKNAME} Stickers Vol.{pack} (Animated)"
+            packnick = (
+                f"{Config.CUSTOM_STICKER_PACKNAME} Stickers Vol.{pack} (Animated)"
+            )
         else:
             packnick = f"{Config.CUSTOM_STICKER_PACKNAME} Stickers Vol.{pack}"
     else:
