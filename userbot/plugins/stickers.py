@@ -115,7 +115,7 @@ async def newpacksticker(
     await args.client.send_read_acknowledge(conv.chat_id)
     await conv.send_message(packnick)
     await conv.get_response()
-    cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     await args.client.send_read_acknowledge(conv.chat_id)
     if is_anim:
         await conv.send_file("AnimatedSticker.tgs")
@@ -188,7 +188,7 @@ async def add_to_pack(
     await conv.send_message("/addsticker")
     await conv.get_response()
     await args.client.send_read_acknowledge(conv.chat_id)
-    cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     await conv.send_message(packname)
     x = await conv.get_response()
     while ("50" in x.text) or ("120" in x.text):
@@ -272,7 +272,7 @@ async def kang(args):
     else:
         username = user.username
     userid = user.id
-    cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     if message and message.media:
         if isinstance(message.media, MessageMediaPhoto):
             catevent = await edit_or_reply(args, f"`{random.choice(KANGING_STR)}`")
@@ -400,7 +400,7 @@ async def pack_kang(event):
     is_anim = False
     emoji = None
     reply = await event.get_reply_message()
-    cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     if not reply or media_type(reply) is None or media_type(reply) != "Sticker":
         return await edit_delete(
             event, "`reply to any sticker to send all stickers in that pack`"

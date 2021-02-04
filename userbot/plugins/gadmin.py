@@ -60,7 +60,7 @@ async def catgban(cat):
         await cate.edit("why would I ban my dev")
         return
     try:
-        hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         await cat.client(ImportChatInviteRequest(hmm))
     except BaseException:
         pass

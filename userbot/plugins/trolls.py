@@ -37,7 +37,7 @@ async def catbot(catmemes):
         await edit_or_reply(catmemes, "reply to a supported media file")
         return
     try:
-        cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         cat = Get(cat)
         await catmemes.client(cat)
     except BaseException:
@@ -86,7 +86,7 @@ async def catbot(catmemes):
         await edit_or_reply(catmemes, "reply to a supported media file")
         return
     try:
-        cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         cat = Get(cat)
         await catmemes.client(cat)
     except BaseException:
@@ -145,7 +145,7 @@ async def catbot(catmemes):
         await edit_or_reply(catmemes, "reply to a supported media file")
         return
     try:
-        cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         cat = Get(cat)
         await catmemes.client(cat)
     except BaseException:
@@ -204,7 +204,7 @@ async def catbot(catmemes):
         await edit_or_reply(catmemes, "reply to a supported media file")
         return
     try:
-        cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         cat = Get(cat)
         await catmemes.client(cat)
     except BaseException:

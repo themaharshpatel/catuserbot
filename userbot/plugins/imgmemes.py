@@ -60,7 +60,7 @@ async def nekobot(cat):
     text = cat.pattern_match.group(1)
     text = re.sub("&", "", text)
     reply_to_id = await reply_id(cat)
-    hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     reply = await cat.get_reply_message()
     if not text:
         if cat.is_reply and not reply.media:
@@ -91,7 +91,7 @@ async def nekobot(cat):
     text = cat.pattern_match.group(1)
     text = re.sub("&", "", text)
     reply_to_id = await reply_id(cat)
-    hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     reply = await cat.get_reply_message()
     if not text:
         if cat.is_reply and not reply.media:
@@ -122,7 +122,7 @@ async def nekobot(cat):
     text = cat.pattern_match.group(1)
     text = re.sub("&", "", text)
     reply_to_id = await reply_id(cat)
-    hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     reply = await cat.get_reply_message()
     if not text:
         if cat.is_reply and not reply.media:
@@ -153,7 +153,7 @@ async def nekobot(cat):
     text = cat.pattern_match.group(1)
     text = re.sub("&", "", text)
     reply_to_id = await reply_id(cat)
-    hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     reply = await cat.get_reply_message()
     if not text:
         if cat.is_reply and not reply.media:
@@ -184,7 +184,7 @@ async def nekobot(cat):
     text = cat.pattern_match.group(1)
     text = re.sub("&", "", text)
     reply_to_id = await reply_id(cat)
-    hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     reply = await cat.get_reply_message()
     if not text:
         if cat.is_reply and not reply.media:

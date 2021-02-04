@@ -68,7 +68,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    animation_interval = 3
+    animation_interval = 6
     animation_ttl = range(18)
     event = await edit_or_reply(event, "Calling Pavel Durov (ceo of telegram)......")
     animation_chars = [

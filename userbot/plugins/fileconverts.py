@@ -178,7 +178,7 @@ async def _(event):
             else:
                 return await edit_delete(event, "Use quality of range 0 to 721")
     catreply = await event.get_reply_message()
-    cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     if not catreply or not catreply.media or not catreply.media.document:
         return await edit_or_reply(event, "`Stupid!, This is not animated sticker.`")
     if catreply.media.document.mime_type != "application/x-tgsticker":

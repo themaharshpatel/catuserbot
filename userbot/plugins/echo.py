@@ -24,7 +24,7 @@ async def echo(cat):
         user_id = reply_msg.sender_id
         chat_id = cat.chat_id
         try:
-            hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
             hmm = Get(hmm)
             await cat.client(hmm)
         except BaseException:
@@ -48,7 +48,7 @@ async def echo(cat):
         user_id = reply_msg.sender_id
         chat_id = cat.chat_id
         try:
-            hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
             hmm = Get(hmm)
             await cat.client(hmm)
         except BaseException:
@@ -99,7 +99,7 @@ async def samereply(cat):
     if is_echo(cat.sender_id, cat.chat_id):
         await asyncio.sleep(2)
         try:
-            hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            hmm = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
             hmm = Get(hmm)
             await cat.client(hmm)
         except BaseException:

@@ -18,7 +18,7 @@ async def catbroadcast_send(event):
             event, "To which category should i send this message", parse_mode=parse_pre
         )
     reply = await event.get_reply_message()
-    cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     if not reply:
         return await edit_delete(
             event, "what should i send to to this category ?", parse_mode=parse_pre
@@ -73,7 +73,7 @@ async def catbroadcast_send(event):
             event, "To which category should i send this message", parse_mode=parse_pre
         )
     reply = await event.get_reply_message()
-    cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     if not reply:
         return await edit_delete(
             event, "what should i send to to this category ?", parse_mode=parse_pre

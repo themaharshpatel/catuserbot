@@ -18,7 +18,7 @@ async def _(event):
     if not event.is_group:
         return await edit_delete(event, "`Idiot! ,This is not a group to lock things `")
     chat_per = (await event.get_chat()).default_banned_rights
-    cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     if input_str in (("bots", "commands", "email", "forward", "url")):
         update_lock(peer_id, input_str, True)
         await edit_or_reply(event, "`Locked {}`".format(input_str))
@@ -188,7 +188,7 @@ async def _(event):
     peer_id = event.chat_id
     if not event.is_group:
         return await edit_delete(event, "`Idiot! ,This is not a group to lock things `")
-    cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+    cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
     chat_per = (await event.get_chat()).default_banned_rights
     if input_str in (("bots", "commands", "email", "forward", "url")):
         update_lock(peer_id, input_str, False)

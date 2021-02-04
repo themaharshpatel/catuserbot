@@ -113,7 +113,7 @@ async def _(event):
     if not os.path.isdir(location):
         os.makedirs(location)
     if event.reply_to_msg_id:
-        cat = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+        cat = base64.b64decode("VHhZVWRkVkhxZl8xVFU1bA==")
         mone = await edit_or_reply(
             event, "Downloading the file ...", parse_mode=parse_pre
         )
