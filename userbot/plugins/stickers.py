@@ -50,8 +50,8 @@ def verify_cond(catarray, text):
 
 def pack_name(userid, pack, is_anim):
     if is_anim:
-        return f"catuserbot_{userid}_{pack}_anim"
-    return f"catuserbot_{userid}_{pack}"
+        return f"{userid}_{pack}_anim"
+    return f"{userid}_{pack}"
 
 
 def char_is_emoji(character):
@@ -61,9 +61,9 @@ def char_is_emoji(character):
 def pack_nick(username, pack, is_anim):
     if Config.CUSTOM_STICKER_PACKNAME:
         if is_anim:
-            packnick = f"{Config.CUSTOM_STICKER_PACKNAME} Vol.{pack} (Animated)"
+            packnick = f"{Config.CUSTOM_STICKER_PACKNAME} Stickers Vol.{pack} (Animated)"
         else:
-            packnick = f"{Config.CUSTOM_STICKER_PACKNAME} Vol.{pack}"
+            packnick = f"{Config.CUSTOM_STICKER_PACKNAME} Stickers Vol.{pack}"
     else:
         if is_anim:
             packnick = f"@{username} Vol.{pack} (Animated)"
@@ -453,7 +453,7 @@ async def pack_kang(event):
                 in message.attributes
             ):
                 emoji = message.attributes[1].alt
-        elif "tgsticker" in message.mime_type:
+        elif "tgsticker" in message.mime_type:ca
             await edit_or_reply(
                 catevent,
                 f"`This sticker pack is kanging now . Status of kang process : {kangst}/{noofst}`",
