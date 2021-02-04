@@ -68,9 +68,9 @@ def pack_nick(username, pack, is_anim):
             packnick = f"{Config.CUSTOM_STICKER_PACKNAME} Stickers Vol.{pack}"
     else:
         if is_anim:
-            packnick = f"@{username} Vol.{pack} (Animated)"
+            packnick = f"@{username} Stickers Vol.{pack} (Animated)"
         else:
-            packnick = f"@{username} Vol.{pack}"
+            packnick = f"@{username} Stickers Vol.{pack}"
     return packnick
 
 
