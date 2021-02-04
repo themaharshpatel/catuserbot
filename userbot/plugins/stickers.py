@@ -453,7 +453,7 @@ async def pack_kang(event):
                 in message.attributes
             ):
                 emoji = message.attributes[1].alt
-        elif "tgsticker" in message.mime_type:ca
+        elif "tgsticker" in message.mime_type:
             await edit_or_reply(
                 catevent,
                 f"`This sticker pack is kanging now . Status of kang process : {kangst}/{noofst}`",
